@@ -22,8 +22,6 @@
     --Aqua: #40DAE6;
     --Orange: #E6B540;
     --blue800: #00507a;
-    
-
 }
 
 
@@ -275,3 +273,4 @@ main {
     grid-row: 7 / 9;
     opacity: 30%;    
   }
+
