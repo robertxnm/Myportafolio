@@ -21,38 +21,25 @@
     $Aqua: #40DAE6;
     $Orange: #E6B540;
     $blue800: #00507a;
-    $font-stack: "Montserrat", sans-serif;
-    $font-stack: "Roboto", sans-serif;
+    $font-montserrat: "Montserrat", sans-serif;
+    $font-roboto: "Roboto", sans-serif;
 
 
   body {
-    font-family: "Roboto", sans-serif;
+    font-family: $font-roboto;
     background-image: linear-gradient(to right top, #4072e6, #0092f5, #00adf7, #00c5ef, #40dae6);
     height: 100vh;
   }
 
-  .container {
-    display: grid;
-    grid-template: repeat(10, 1fr) / repeat(10, 1fr);
-    height: 100vh;
-    margin: 0 auto;
-    width: 100%;
-  }
   
 /**Header**/
 
-header {
-  display: flex;
-  grid-column: 1 / 11;
-  grid-row: 1 / 2;
-  z-index: 1000;
-
-}
 
   nav {
+    width: 100%;
+    height: 90px;
     display: flex;
     margin-top: 20px;
-    width: 100%;
     justify-content: space-between; 
     align-items: center;
     padding: 0 100px;  
@@ -153,6 +140,11 @@ header {
 
 
 @media (max-width: 991px)  {
+
+    body {
+      background-image: linear-gradient(to right left, #4072e6, #40dae6);
+    }
+
     .acording {
       display: block;
       font-size: 35px;
@@ -189,120 +181,58 @@ header {
 /**Main**/
 
 article {
-  display: inline-flex;
+  display: flex;
   width: auto;
-  height: auto;
-  padding-left: 100px;
-  padding-right: 100px;
-  justify-content: space-around; 
-  align-items: start;
-  background-color: blueViolet;
-  position: relative;
-  }
-
-  
-  .text-banner {
-    display: inline-block;
-    width: auto;
-    height: auto;
-    justify-content: space-around;
-}
- .banner {
-  font-size: 50px;
-  display: flex;
-  position: relative;
-  justify-content: start;
+  height: 300px;
+  justify-content: space-between; 
   align-items: center;
-  width: 500px;
-  height: 50px;
+  position: relative;
+  padding: 0 100px;
   color: white;
-  font-weight: 200;
-  font-family: Montserrat;
-  font-weight: 800;
-  font-style: italic;
-  
-}
-.title {
-    font-size: 16px;
-    display: flex;
-    position: relative;
-    justify-content: start;
-    align-items: center;
-    width: 600px;
-    height: 30px;
-    color: white;
-    font-family: Montserrat;
-    font-weight: 300;
-    font-style: regular;
-}
-
-.image-main {
-  display: flex;
-
-}
+  background-color: $MainBlue;
 
 
-.dish-design {
-    display: inline-flex;
-    width: 200px;
-    height: 200px;
-    border-radius: 5px;
+  .left-main {
+    background-color: $blueViolet;
+
+          .title-main {
+            font-size: 50px;
+            position: relative;
+            justify-content: start;
+            align-items: center;
+            font-weight: 200;
+            font-family: $font-montserrat;
+            font-weight: 800;
+            font-style: italic;
+            
+            }
+          .sub-title {
+              font-size: 16px;
+              position: relative;
+              justify-content: start;
+              align-items: center;
+              width: 600px;
+              font-family: $font-montserrat;
+              font-weight: 300;
+              font-style: regular;
+              margin-bottom: 30px;
+            }
+          
+
+  }
+
+  .right-main {
+    background-color: $blueViolet;
+            img {
+               width: 20vw;
+               border-radius: 50px;
+            }
+
+
+
+
+  }
+
     
-  }
-
-
-
-
-
-  .item-6 {
-    border: 4px solid #4072E6;
-    grid-column: 8 / 10;
-    grid-row: 3 / 6;
-  }
-
-  .item-7 {
-    border: 4px solid var(--Orange);
-    grid-column: 7 / 10;
-    grid-row: 4 / 7;
-  }
-
-  
-
-    .item-9{
-    font-size: 20px;
-    display: grid;
-    grid-column: 2;
-    grid-row: 9 / 4;
-    transform: rotate(180deg);
-    writing-mode: vertical-lr;
-  }
-  .item-9{
-    margin: 0;
-    place-items: center;
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-  }
-
-  .item-1 {
-    background: var(--blueViolet);
-    grid-column: 1 / 2;
-    grid-row: 5 / 10;
-
-  }
-
-
-  .item-2 {
-    background: var(--Aqua);
-    grid-column: 8 / 11;
-    grid-row: 3 / 6;
-    border-radius: 20px;
     
-  }
-
-  
-  .item-3 {
-    background: var(--MainBlue);
-    grid-column: 2 / 5;
-    grid-row: 7 / 9;
-    opacity: 30%;    
-  }
+}
