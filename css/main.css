@@ -118,59 +118,8 @@ nav {
   background-position: 100%;
 }
 
-@media (max-width: 991px) {
-  body {
-    background-image: linear-gradient(to right left, #4072e6, #40dae6);
-    width: 100%;
-    height: hv;
-  }
-  .acording {
-    display: flex;
-    flex-direction: column;
-    font-size: 35px;
-    color: var(--white);
-    margin: 0;
-    padding: 0;
-  }
-  .navbar-center {
-    display: none;
-  }
-  nav {
-    display: flex;
-    margin-top: 20px;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 24px;
-    flex-direction: row-reverse;
-  }
-  .logo {
-    display: flex;
-    width: 30px;
-  }
-  .navbar-right {
-    display: none;
-  }
-  article .left-main {
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
-    justify-content: start;
-    align-items: start;
-  }
-  .right-main {
-    border-radius: 50px;
-  }
-  .right-main img {
-    display: flex;
-    flex-direction: row;
-    width: auto;
-    height: 600px;
-    border-radius: 400px;
-  }
-}
-/**Main**/
-article {
+/**Main-article-banner **/
+.article {
   display: flex;
   width: auto;
   justify-content: space-between;
@@ -179,21 +128,21 @@ article {
   padding: 0 100px;
   color: white;
 }
-article .left-main {
+.article .left-main {
   display: flex;
   flex-direction: column;
   gap: 15px;
   justify-content: start;
   align-items: start;
 }
-article .left-main .title-main {
-  font-size: 70px;
+.article .left-main .title-main {
+  font-size: 4rem;
   position: relative;
   font-family: "Montserrat", sans-serif;
   font-weight: 800;
   font-style: italic;
 }
-article .left-main .sub-title {
+.article .left-main .sub-title {
   font-size: 22px;
   position: relative;
   font-family: "Montserrat", sans-serif;
@@ -201,7 +150,7 @@ article .left-main .sub-title {
   font-style: regular;
   margin-bottom: 30px;
 }
-article .left-main .parragraph {
+.article .left-main .parragraph {
   font-size: 18px;
   position: relative;
   padding-bottom: 70px;
@@ -209,23 +158,22 @@ article .left-main .parragraph {
   font-weight: 100;
   font-style: regular;
 }
-article .left-main .text-description {
-  display: flex;
+.article .left-main .Boton-working {
   flex-direction: column;
   gap: 15px;
   padding-bottom: 40px;
 }
-article .right-main {
+.article .right-main {
   border-radius: 50px;
 }
-article .right-main img {
-  width: auto;
-  height: 600px;
+.article .right-main img {
+  width: 90%;
+  height: auto;
   border-radius: 400px;
 }
 
-/*text*/
-section {
+/**Main-Section-banner **/
+.product-section {
   display: flex;
   width: auto;
   height: auto;
@@ -233,21 +181,17 @@ section {
   padding: 0 100px;
   color: #fff;
 }
-section h2 {
-  font-size: 18px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  justify-content: center;
-  margin-bottom: 30PX;
-}
-section .healthcare h2 {
+.product-section .healthcare h2 {
   font-style: regular;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1, 5rem;
   padding-bottom: 20px;
   justify-content: center;
   display: flex;
-  font-weight: 800;
+  font-weight: 500;
+  margin-bottom: 30PX;
 }
-section .healthcare .card-section {
+.product-section .healthcare .card-section {
   display: flex;
   width: auto;
   height: auto;
@@ -258,7 +202,7 @@ section .healthcare .card-section {
        column-gap: 40px;
   row-gap: 40px;
 }
-section .healthcare .card-section .product-card {
+.product-section .healthcare .card-section .product-card {
   width: 20vw;
   height: auto;
   background-color: rgba(51, 53, 60, 0.2);
@@ -267,7 +211,7 @@ section .healthcare .card-section .product-card {
   color: #fff;
   margin-bottom: 50px;
 }
-section .healthcare .card-section .product-card .product-image1, section .healthcare .card-section .product-card .product-image6, section .healthcare .card-section .product-card .product-image5, section .healthcare .card-section .product-card .product-image4, section .healthcare .card-section .product-card .product-image3, section .healthcare .card-section .product-card .product-image2 {
+.product-section .healthcare .card-section .product-card .product-image1, .product-section .healthcare .card-section .product-card .product-image6, .product-section .healthcare .card-section .product-card .product-image5, .product-section .healthcare .card-section .product-card .product-image4, .product-section .healthcare .card-section .product-card .product-image3, .product-section .healthcare .card-section .product-card .product-image2 {
   display: flex;
   width: 90px;
   height: 90px;
@@ -278,39 +222,39 @@ section .healthcare .card-section .product-card .product-image1, section .health
   align-items: center;
   margin-bottom: 20px;
 }
-section .healthcare .card-section .product-card .product-image1 img, section .healthcare .card-section .product-card .product-image6 img, section .healthcare .card-section .product-card .product-image5 img, section .healthcare .card-section .product-card .product-image4 img, section .healthcare .card-section .product-card .product-image3 img, section .healthcare .card-section .product-card .product-image2 img {
+.product-section .healthcare .card-section .product-card .product-image1 img, .product-section .healthcare .card-section .product-card .product-image6 img, .product-section .healthcare .card-section .product-card .product-image5 img, .product-section .healthcare .card-section .product-card .product-image4 img, .product-section .healthcare .card-section .product-card .product-image3 img, .product-section .healthcare .card-section .product-card .product-image2 img {
   width: 40px;
   height: 48px;
 }
-section .healthcare .card-section .product-card .product-image2 {
+.product-section .healthcare .card-section .product-card .product-image2 {
   background-color: #E68340;
 }
-section .healthcare .card-section .product-card .product-image3 {
+.product-section .healthcare .card-section .product-card .product-image3 {
   background-color: #ED4042;
 }
-section .healthcare .card-section .product-card .product-image4 {
+.product-section .healthcare .card-section .product-card .product-image4 {
   background-color: #40A6E6;
 }
-section .healthcare .card-section .product-card .product-image5 {
+.product-section .healthcare .card-section .product-card .product-image5 {
   background-color: #7940E6;
 }
-section .healthcare .card-section .product-card .product-image6 {
+.product-section .healthcare .card-section .product-card .product-image6 {
   background-color: #0A3459;
 }
-section .healthcare .card-section .product-card h4 {
+.product-section .healthcare .card-section .product-card h4 {
   margin-bottom: 10px;
   font-family: "Poppins", sans-serif;
   font-size: 18px;
   font-weight: 600;
   font-style: regular;
 }
-section .healthcare .card-section .product-card p {
+.product-section .healthcare .card-section .product-card p {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 300;
   font-style: regular;
 }
-section .healthcare .subtitle-items {
+.product-section .healthcare .subtitle-items {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
