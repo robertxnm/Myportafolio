@@ -144,19 +144,89 @@ nav {
 /**Main-Section-banner **/
 .product-section {
   display: flex;
-  width: auto;
-  height: auto;
-  padding: 0 10px;
+  width: 100%;
+  padding-bottom: 70px;
+  min-width: 320px;
+  padding: 0 20px 40px;
   color: #fff;
 }
 .product-section .healthcare h2 {
+  width: 90%;
+  min-width: 288;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 30px;
+  /**texto**/
   font-style: regular;
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   padding-bottom: 20px;
-  justify-content: center;
-  display: flex;
-  font-weight: 800;
+  font-weight: 600;
   margin-bottom: 30px;
+  text-align: center;
+}
+.product-section .healthcare .product-card {
+  position: relative;
+  width: 90%;
+  min-width: 230px;
+  max-width: 400px;
+  height: 250px;
+  margin: 50px auto 0;
+  padding: 10px 15px;
+  background-color: rgba(51, 53, 60, 0.2);
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+.product-section .healthcare .product-card .product-image1, .product-section .healthcare .product-card .product-image6, .product-section .healthcare .product-card .product-image5, .product-section .healthcare .product-card .product-image4, .product-section .healthcare .product-card .product-image3, .product-section .healthcare .product-card .product-image2 {
+  display: flex;
+  width: 90px;
+  height: 90px;
+  background-color: #D9BF71;
+  border-radius: 90px;
+  opacity: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.product-section .healthcare .product-card .product-image1 img, .product-section .healthcare .product-card .product-image6 img, .product-section .healthcare .product-card .product-image5 img, .product-section .healthcare .product-card .product-image4 img, .product-section .healthcare .product-card .product-image3 img, .product-section .healthcare .product-card .product-image2 img {
+  width: 40px;
+  height: 48px;
+}
+.product-section .healthcare .product-card .product-image2 {
+  background-color: #E68340;
+}
+.product-section .healthcare .product-card .product-image3 {
+  background-color: #ED4042;
+}
+.product-section .healthcare .product-card .product-image4 {
+  background-color: #40A6E6;
+}
+.product-section .healthcare .product-card .product-image5 {
+  background-color: #7940E6;
+}
+.product-section .healthcare .product-card .product-image6 {
+  background-color: #0A3459;
+}
+.product-section .healthcare .product-card h4 {
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: regular;
+}
+.product-section .healthcare .product-card p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: regular;
+}
+.product-section .healthcare .subtitle-items {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8rem;
+  font-style: italic;
+  font-weight: 300;
   text-align: center;
 }/*# sourceMappingURL=tablet.css.map */

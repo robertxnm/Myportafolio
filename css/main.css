@@ -203,8 +203,8 @@ nav {
   row-gap: 40px;
 }
 .product-section .healthcare .card-section .product-card {
-  width: 20vw;
-  height: auto;
+  width: 310px;
+  height: 256px;
   background-color: rgba(51, 53, 60, 0.2);
   padding: 20px;
   border-radius: 20px;
