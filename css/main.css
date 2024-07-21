@@ -142,6 +142,9 @@ nav {
   font-weight: 800;
   font-style: italic;
 }
+.article .left-main .title-main span {
+  color: #40DAE6;
+}
 .article .left-main .sub-title {
   font-size: 22px;
   position: relative;
@@ -175,7 +178,8 @@ nav {
 /**Main-Section-banner **/
 .product-section {
   display: flex;
-  width: auto;
+  width: 100%;
+  min-width: 320px;
   height: auto;
   padding: 30px;
   padding: 0 100px;
@@ -274,30 +278,77 @@ nav {
   border: 2px solid #4340E6;
 }
 
-.brands {
+/** Section of brands working **/
+.main-brands-container-slider {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin: 0;
   padding: 0;
-  width: auto;
+  width: 100%;
   height: auto;
   background-image: linear-gradient(to right top, #40dae6, #00c5ef, #00adf7, #0092f5, #4072e6);
   padding: 0 100px;
 }
-.brands .marcas {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.brands .marcas .texto-marcas {
+.main-brands-container-slider .brands-title {
   font-family: "Poppins", sans-serif;
   color: white;
   font-size: 20px;
 }
-.brands .marcas .logos-worked img {
+.main-brands-container-slider .brands-container-slider .brands-container--card img {
+  display: inline-flex;
   width: 11vw;
   width: 11vh;
   margin: 10px;
 }
 
+/**------------------- Section of brands working------------------- **/
+.main-brands-container-slider {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  background-image: linear-gradient(to right top, #40dae6, #00c5ef, #00adf7, #0092f5, #4072e6);
+  padding: 0 10px;
+}
+.main-brands-container-slider .brands-title {
+  padding: 20px 0 20px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 300px;
+  line-height: 1.5rem;
+  text-align: center;
+}
+.main-brands-container-slider .brands-container-slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  gap: 10px;
+}
+.main-brands-container-slider .brands-container-slider .brands-container--card {
+  display: flex;
+  position: relative;
+  width: 70%;
+  min-width: 230px;
+  max-width: 300px;
+  height: 200px;
+  padding: 0 15px;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+  padding: 10px;
+  margin: 0 5px;
+}
+
+/**------------------- Footer------------------- **/
 footer {
   width: auto;
   height: 200px;

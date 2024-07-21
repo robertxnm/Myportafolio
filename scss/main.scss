@@ -174,7 +174,9 @@
             font-family: $font-montserrat;
             font-weight: 800;
             font-style: italic;
-            
+            span{
+              color: $Aqua;
+            }
             }
           .sub-title {
               font-size: 22px;
@@ -218,7 +220,8 @@
 /**Main-Section-banner **/
 .product-section {
       display: flex;
-      width: auto;
+      width: 100%;
+      min-width: 320px;
       height: auto;
       padding: 30px;
       padding: 0 100px;
@@ -336,41 +339,103 @@
                        
               }
 
-
+/** Section of brands working **/
      
 
-      .brands {
+      .main-brands-container-slider {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         margin: 0;
         padding: 0;
-        width: auto;
+        width: 100%;
         height: auto;
         background-image: linear-gradient(to right top, #40dae6, #00c5ef, #00adf7, #0092f5, #4072e6);
         padding: 0 100px;
 
-       .marcas{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-
-        .texto-marcas {
+        .brands-title {
           font-family: $font-poppins;
           color: white;
-          font-size: 20px;
-
-          
+          font-size: 20px;          
         }
 
-        .logos-worked {
+        .brands-container-slider {
+
+          .brands-container--card {
             img {
-              
+            display: inline-flex;         
             width: 11vw;
             width: 11vh;
             margin: 10px;
             }
+           }
+
         }
 
-       }
+       
       }
+
+
+
+/**------------------- Section of brands working------------------- **/
+
+
+.main-brands-container-slider {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  background-image: linear-gradient(to right top, #40dae6, #00c5ef, #00adf7, #0092f5, #4072e6);
+  padding: 0 10px;
+
+  .brands-title {
+   
+    padding: 20px 0 20px;
+    font-family: $font-poppins;
+    color: white;
+    font-size: 1.5rem;  
+    font-weight: 300px;
+    line-height: 1.5rem;
+    text-align: center;   
+  }
+
+  .brands-container-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    gap: 10px;
+
+
+
+  .brands-container--card {
+    display: flex;
+    position: relative;
+    width: 70%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 200px;
+    padding: 0 15px;
+    justify-content: center;
+    align-items: center;
+    background-color: $white;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16) ;
+    padding: 10px;
+    margin: 0 5px;
+   
+
+  }
+  }
+}
+
+/**------------------- Footer------------------- **/
+
+
 
   footer {
     width: auto;
