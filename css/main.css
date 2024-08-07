@@ -212,8 +212,10 @@ nav {
   background-color: rgba(51, 53, 60, 0.2);
   padding: 20px;
   border-radius: 20px;
+  border: 2px solid transparent;
   color: #fff;
   margin-bottom: 50px;
+  cursor: pointer;
 }
 .product-section .healthcare .card-section .product-card .product-image1, .product-section .healthcare .card-section .product-card .product-image6, .product-section .healthcare .card-section .product-card .product-image5, .product-section .healthcare .card-section .product-card .product-image4, .product-section .healthcare .card-section .product-card .product-image3, .product-section .healthcare .card-section .product-card .product-image2 {
   display: flex;
@@ -258,6 +260,9 @@ nav {
   font-weight: 300;
   font-style: regular;
 }
+.product-section .healthcare .card-section .product-card:hover {
+  border: 2px solid #4340E6;
+}
 .product-section .healthcare .subtitle-items {
   display: flex;
   justify-content: center;
@@ -267,15 +272,6 @@ nav {
   font-style: italic;
   font-weight: 300;
   text-align: center;
-}
-
-.product-card:hover {
-  width: 20vw;
-  height: auto;
-  background-color: rgba(51, 53, 60, 0.2);
-  padding: 20px;
-  border-radius: 20px;
-  border: 2px solid #4340E6;
 }
 
 /** Section of brands working **/
@@ -403,16 +399,19 @@ footer h6 {
   font-style: regular;
   margin-bottom: 20px;
 }
-footer .redes-contacto {
+footer .footer-center-redesc {
   padding-bottom: 10px;
   font-family: "Montserrat", sans-serif;
   font-size: 13px;
-  font-weight: 200;
   font-style: regular;
   margin-bottom: 20px;
 }
-footer .redes-contacto p {
+footer .footer-center-redesc p {
   padding-bottom: 10px;
+  font-weight: 400;
+}
+footer .footer-center-redesc p span {
+  font-weight: 200;
 }
 footer .ayuda {
   padding-bottom: 10px;
@@ -432,4 +431,23 @@ footer .ayuda .text-description a .btn {
 .dreservados {
   color: #40DAE6;
   margin-bottom: 50px;
+}
+
+.rights {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin-bottom: 50px;
+  font-family: "Montserrat", sans-serif;
+}
+.rights .right-title {
+  font-size: 15px;
+  font-weight: 500;
+  color: #40DAE6;
+}
+.rights .right-parragraph {
+  font-size: 15px;
+  font-weight: 100;
 }/*# sourceMappingURL=main.css.map */

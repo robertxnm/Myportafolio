@@ -128,7 +128,7 @@ nav {
   margin-bottom: 30px;
 }
 .article .left-main .parragraph {
-  font-size: 18px;
+  font-size: 15px;
   position: relative;
   padding-bottom: 70px;
   font-family: "Montserrat", sans-serif;
@@ -282,11 +282,117 @@ nav {
 
 footer {
   display: flex;
+  flex-wrap: wrap;
   width: auto;
-  height: 200px;
-  display: flex;
-  padding: 0 100px;
+  height: auto;
+  padding: 0 20px;
   color: #fff;
   margin: 100px 0;
-  justify-content: space-evenly;
+  gap: 30px;
+  justify-content: start;
+}
+footer .footer-left {
+  align-items: center;
+  margin-bottom: 30px;
+}
+footer .footer-left .image-last-name {
+  display: flex;
+}
+footer .footer-left .image-last-name .footer-logo img {
+  width: auto;
+  height: auto;
+}
+footer .footer-left .image-last-name .last-name {
+  width: auto;
+  height: auto;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+footer .footer-left .image-last-name .last-name .name {
+  width: auto;
+  height: auto;
+  font-family: "Montserrat", sans-serif;
+  font-size: 41px;
+  font-weight: 600;
+  font-style: regular;
+}
+footer .footer-left .image-last-name .last-name .last {
+  width: auto;
+  height: auto;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: 200;
+  font-style: regular;
+}
+footer .footer-left .slogan {
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  font-weight: 100;
+  font-style: regular;
+}
+footer h6 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  font-style: regular;
+  margin-bottom: 20px;
+}
+footer .footer-center-redesc {
+  padding-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-style: regular;
+  margin-bottom: 20px;
+}
+footer .footer-center-redesc p {
+  padding-bottom: 10px;
+  font-weight: 400;
+}
+footer .footer-center-redesc p span {
+  font-weight: 200;
+}
+footer .ayuda {
+  padding-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 200;
+  font-style: regular;
+  margin-bottom: 20px;
+}
+footer .ayuda p {
+  padding-bottom: 10px;
+}
+footer .ayuda .footer-btn-doubt {
+  display: flex;
+  flex-wrap: nowrap;
+  position: absolute;
+}
+footer .ayuda .footer-btn-doubt a .btn {
+  margin-top: 30px;
+}
+footer .dreservados {
+  color: #40DAE6;
+  margin-bottom: 20px;
+}
+footer .footer-line-half {
+  display: none;
+}
+
+.rights {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin: 20px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+.rights .right-title {
+  font-size: 15px;
+  font-weight: 500;
+}
+.rights .right-parragraph {
+  font-size: 13px;
+  font-weight: 100;
 }/*# sourceMappingURL=tablet.css.map */

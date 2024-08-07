@@ -259,8 +259,11 @@
               background-color: rgb(51, 53, 60, 20%);
               padding: 20px;
               border-radius: 20px;
+              border: 2px solid transparent;     
               color: $white;
-              margin-bottom: 50px;           
+              margin-bottom: 50px;   
+              cursor: pointer;  
+               
               
              
               .product-image1 {
@@ -315,6 +318,10 @@
               font-style: regular;
             }
           }
+          .product-card:hover {
+            border: 2px solid $blueViolet;          
+       }
+
         }   
         .subtitle-items {
           display: flex;
@@ -329,16 +336,7 @@
 
       }
     }  
-.product-card:hover{
-              width: 20vw;
-              height: auto;
-              background-color: rgb(51, 53, 60, 20%);
-              padding: 20px;
-              border-radius: 20px;
-              border: 2px solid $blueViolet;
-                       
-              }
-
+       
 /** Section of brands working **/
      
 
@@ -498,15 +496,18 @@
           font-style: regular;
           margin-bottom: 20px;
         }
-        .redes-contacto {
+        .footer-center-redesc {
           padding-bottom: 10px;
           font-family: $font-montserrat;
           font-size: 13px;
-          font-weight: 200;
           font-style: regular;
           margin-bottom: 20px;
           p{
             padding-bottom: 10px;
+            font-weight: 400;
+            span{
+              font-weight: 200;
+            }
           }
         }
         .ayuda {
@@ -540,4 +541,23 @@
       margin-bottom: 50px;
     }
    
-  
+    .rights {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: $white;
+      margin-bottom: 50px;
+      font-family: $font-montserrat;
+
+    .right-title {
+      font-size: 15px;
+      font-weight: 500;
+      color: $Aqua;
+    }
+    .right-parragraph {
+      font-size: 15px;
+      font-weight: 100;
+      
+    }
+    }

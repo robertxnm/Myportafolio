@@ -161,7 +161,7 @@
       }
       
     .parragraph {
-      font-size: 18px;
+      font-size: 15px;
       position: relative;
       padding-bottom: 70px;             
       font-family: $font-montserrat;
@@ -354,11 +354,134 @@
 
 footer {
   display: flex;
+  flex-wrap: wrap;
   width: auto;
-  height: 200px;
-  display: flex;
-  padding: 0 100px;
+  height: auto;
+  padding: 0 20px;
   color: $white;
   margin: 100px 0;   
-  justify-content: space-evenly;
+  gap: 30px;
+  justify-content: start;
+
+  .footer-left{        
+    align-items: center;
+    margin-bottom: 30px;
+    .image-last-name {
+        display: flex;
+
+        .footer-logo{
+            img {
+              width: auto;
+              height: auto;
+            }
+          }
+        .last-name {
+          width: auto;
+          height: auto;
+          column-gap: 10px;
+                      
+          .name {
+            width: auto;
+            height: auto;
+            font-family: $font-montserrat;
+            font-size: 41px;
+            font-weight: 600;
+            font-style: regular;
+                         
+          }
+          .last {
+            width: auto;
+            height: auto;
+            font-family: $font-montserrat;
+            font-size: 40px;
+            font-weight: 200;
+            font-style: regular;
+          }
+         }
+      }
+      .slogan {
+        font-family: $font-montserrat;
+        font-size: 28px;
+        font-weight: 100;
+        font-style: regular;
+      }
+    }
+    h6{
+
+      font-family: $font-montserrat;
+      font-size: 18px;
+      font-weight: 800;
+      font-style: regular;
+      margin-bottom: 20px;
+    }
+    .footer-center-redesc {
+      padding-bottom: 10px;
+      font-family: $font-montserrat;
+      font-size: 13px;
+      
+      font-style: regular;
+      margin-bottom: 20px;
+      p{
+        padding-bottom: 10px;
+        font-weight: 400;
+        span{
+          font-weight: 200;
+        }
+      }
+    }
+
+    
+    .ayuda {
+      padding-bottom: 10px;
+      font-family: $font-montserrat;
+      font-size: 13px;
+      font-weight: 200;
+      font-style: regular;
+      margin-bottom: 20px;
+      p{
+        padding-bottom: 10px;
+      }
+      .footer-btn-doubt {
+        display: flex;
+        flex-wrap: nowrap;
+        position: absolute;
+        a {
+          .btn {
+            
+              margin-top: 30px;
+          }
+        }
+      }
+
+    }
+
+    .dreservados {
+      color: $Aqua;
+      margin-bottom: 20px;
+    }
+    
+
+    .footer-line-half{
+      display: none;
+    }
+}
+
+.rights {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: $white;
+  margin: 20px;
+  font-family: $font-montserrat;
+  text-align: center;
+
+.right-title {
+  font-size: 15px;
+  font-weight: 500;
+}
+.right-parragraph {
+  font-size: 13px;
+  font-weight: 100;
+}
 }
