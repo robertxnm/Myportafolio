@@ -331,26 +331,39 @@
 
 
 
-        .brands-container--card {
-          position: relative;
-          scroll-snap-align: center;
-          width: 70%;
-          min-width: 230px;
-          max-width: 300px;
-          height: 200px;
-          padding: 0 15px;
-          background-color: $white;
-          border-radius: 15px;
-          box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16) ;
-          padding: 10px;
-          margin: 0 5px;
-         
+          .brands-container--card {
+            display: flex;
+            position: relative;
+            width: 70%;
+            min-width: 230px;
+            max-width: 300px;
+            height: 200px;
+            padding: 0 15px;
+            justify-content: center;
+            align-items: center;
+            background-color: $white;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16) ;
+            padding: 10px;
+            margin: 0 5px;
+            
+            img {
+              width: 50%;
+              height: auto;
+              margin: 0;
+              padding: 0;
+            }
+            p {
+              font-family: $font-montserrat;
+              font-size: 1rem;
+            }
 
         }
         }
 }
 
 
+/**------------------- Footer------------------- **/
 
 footer {
   display: flex;
@@ -483,5 +496,10 @@ footer {
 .right-parragraph {
   font-size: 13px;
   font-weight: 100;
+  span {
+    font-weight: 300;
+  }
+  
 }
+
 }

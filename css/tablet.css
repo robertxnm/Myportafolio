@@ -266,20 +266,33 @@ nav {
   gap: 10px;
 }
 .main-brands-container-slider .brands-container-slider .brands-container--card {
+  display: flex;
   position: relative;
-  scroll-snap-align: center;
   width: 70%;
   min-width: 230px;
   max-width: 300px;
   height: 200px;
   padding: 0 15px;
+  justify-content: center;
+  align-items: center;
   background-color: #fff;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
   padding: 10px;
   margin: 0 5px;
 }
+.main-brands-container-slider .brands-container-slider .brands-container--card img {
+  width: 50%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+.main-brands-container-slider .brands-container-slider .brands-container--card p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+}
 
+/**------------------- Footer------------------- **/
 footer {
   display: flex;
   flex-wrap: wrap;
@@ -395,4 +408,7 @@ footer .footer-line-half {
 .rights .right-parragraph {
   font-size: 13px;
   font-weight: 100;
+}
+.rights .right-parragraph span {
+  font-weight: 300;
 }/*# sourceMappingURL=tablet.css.map */

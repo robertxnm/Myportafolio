@@ -36,8 +36,8 @@
     overflow-x: hidden;
   }
 
-/**Header**/
 
+/**-------------------Header------------------- **/
 
   nav {
     width: 100%;
@@ -147,9 +147,8 @@
 
 
 
+/**-------------------Main-article-banner ------------------- **/
 
-
-/**Main-article-banner **/
 
 .article {
   display: flex;
@@ -216,8 +215,7 @@
     
 }
 
-
-/**Main-Section-banner **/
+/**-------------------Main-Section-ingredients ------------------- **/
 .product-section {
       display: flex;
       width: 100%;
@@ -306,9 +304,9 @@
 
             h4 {
               margin-bottom: 10px;
-              font-family: $font-poppins;
+              font-family: $font-montserrat;
               font-size: 18px;
-              font-weight: 600;
+              font-weight: 200;
               font-style: regular;
             }
             p {
@@ -332,13 +330,19 @@
           font-style: italic;
           font-weight: 300;
           text-align: center;
+
+          span {
+            color: $Aqua;
+            font-weight: 700;
+          }
         }
 
       }
     }  
        
-/** Section of brands working **/
      
+/**------------------- ection of brands working ------------------- **/
+
 
       .main-brands-container-slider {
         display: flex;
@@ -425,8 +429,17 @@
     box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16) ;
     padding: 10px;
     margin: 0 5px;
-   
-
+    
+            img {
+              width: 50%;
+              height: auto;
+              margin: 0;
+              padding: 0;
+            }
+            p {
+              font-family: $font-montserrat;
+              font-size: 1rem;
+            }
   }
   }
 }
@@ -528,6 +541,11 @@
               }
             }
           }
+        
+          .footer-btn-doubt {
+            margin-top: 20px;
+          }
+
 
         }
 
@@ -558,6 +576,10 @@
     .right-parragraph {
       font-size: 15px;
       font-weight: 100;
+
+      span {
+        font-weight: 300;
+      }
       
     }
     }
