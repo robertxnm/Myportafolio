@@ -411,4 +411,54 @@ footer .footer-line-half {
 }
 .rights .right-parragraph span {
   font-weight: 300;
+}
+
+/**------------------- Page about me ------------------- **/
+.cards-section-improve {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  padding: 0 5px;
+}
+.cards-section-improve .cards-container-slider {
+  display: flex;
+  height: 200px;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+  gap: 10px;
+}
+.cards-section-improve .cards-container-slider .cards-items {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 150px;
+  min-width: 150px;
+  max-width: 350px;
+  height: 110px;
+  padding: 0 15px;
+  justify-content: stretch;
+  align-items: center;
+  background-color: #C0E0F7;
+  border-radius: 22px;
+  box-shadow: 11px 11px 14px #041524;
+  padding: 10px;
+  margin: 0 5px;
+}
+.cards-section-improve .cards-container-slider .cards-items .title-number {
+  font-style: italic;
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #40A6E6;
+}
+.cards-section-improve .cards-container-slider .cards-items .subtitle-description {
+  font-style: normal;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 500px;
 }/*# sourceMappingURL=tablet.css.map */
