@@ -278,30 +278,6 @@ nav {
   font-weight: 700;
 }
 
-/**------------------- ection of brands working ------------------- **/
-.main-brands-container-slider {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: auto;
-  background-image: linear-gradient(to right top, #40dae6, #00c5ef, #00adf7, #0092f5, #4072e6);
-  padding: 0 100px;
-}
-.main-brands-container-slider .brands-title {
-  font-family: "Poppins", sans-serif;
-  color: white;
-  font-size: 20px;
-}
-.main-brands-container-slider .brands-container-slider .brands-container--card img {
-  display: inline-flex;
-  width: 11vw;
-  width: 11vh;
-  margin: 10px;
-}
-
 /**------------------- Section of brands working------------------- **/
 .main-brands-container-slider {
   display: flex;
@@ -470,4 +446,176 @@ footer .ayuda .footer-btn-doubt {
 }
 .rights .right-parragraph span {
   font-weight: 300;
+}
+
+/**------------------- PAGE ABOUT ME ------------------- **/
+/**------------------- MAIN SECTION ------------------- **/
+.article {
+  display: flex;
+  width: auto;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 0 100px;
+  color: white;
+}
+.article .left-main {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: start;
+  align-items: start;
+}
+.article .left-main .title-main2 {
+  font-size: 4rem;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+.article .left-main .title-main2 span {
+  color: #40DAE6;
+}
+.article .left-main .subtitle-lineBlue {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 10px;
+}
+.article .left-main .subtitle-lineBlue .sub-title {
+  font-size: 22px;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-style: regular;
+  margin-bottom: 10px;
+  width: auto;
+}
+.article .left-main .subtitle-lineBlue .barrablue {
+  border: 2px dashed;
+  position: relative;
+  background-image: linear-gradient(to right top, #40dae6, #00c5ef, #00adf7, #0092f5, #4072e6);
+  color: #C0E0F7;
+  width: 500px;
+  height: 1px;
+  border-radius: 10px;
+}
+.article .left-main .parragraph {
+  font-size: 18px;
+  position: relative;
+  padding-bottom: 70px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-style: regular;
+  text-align: center;
+}
+.article .left-main .Boton-working {
+  flex-direction: column;
+  gap: 15px;
+  padding-bottom: 40px;
+}
+.article .right-main {
+  border-radius: 50px;
+}
+.article .right-main img {
+  width: 90%;
+  height: auto;
+  border-radius: 400px;
+}
+
+/**------------------- a great benefits package ------------------- **/
+.cards-section-improve {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  padding: 0 5px;
+  margin-bottom: 50px;
+}
+.cards-section-improve .cards-container-slider {
+  display: flex;
+  height: 130px;
+  width: auto;
+  gap: 20px;
+}
+.cards-section-improve .cards-container-slider .cards-items {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 150px;
+  height: 110px;
+  padding: 0 15px;
+  justify-content: stretch;
+  align-items: center;
+  justify-content: stretch;
+  align-items: center;
+  background-color: #C0E0F7;
+  border-radius: 22px;
+  box-shadow: 11px 11px 14px #041524;
+  padding: 10px;
+  margin: 0 5px;
+}
+.cards-section-improve .cards-container-slider .cards-items .title-number {
+  font-style: italic;
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #40A6E6;
+}
+.cards-section-improve .cards-container-slider .cards-items .subtitle-description {
+  font-style: normal;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 500px;
+}
+
+/**------------------- Improve benefist 99% ------------------- **/
+.improve-trust {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.improve-trust .improve-trust-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  width: 280px;
+  height: 280px;
+  border: 30px, solid;
+  border-top-color: #40DAE6;
+  border-right-color: #4072E6;
+  border-bottom-color: #40DAE6;
+  border-left-color: #40DAE6;
+  border-radius: 300px;
+  text-align: center;
+}
+.improve-trust .improve-trust-container .porcentage {
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+  font-size: 50px;
+  font-weight: 700;
+  color: #fff;
+}
+.improve-trust .improve-trust-container .porcentage span {
+  font-size: 20px;
+  font-weight: 700;
+}
+.improve-trust .improve-trust-container .porcentage-description {
+  font-family: "Montserrat", sans-serif;
+  font-style: regular;
+  font-size: 18px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.imagePerfil img {
+  display: flex;
+  width: 50%;
+  height: auto;
 }/*# sourceMappingURL=main.css.map */

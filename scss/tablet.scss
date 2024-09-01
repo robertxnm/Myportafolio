@@ -288,10 +288,11 @@
     justify-content: center;
     margin-bottom: 50px;
     font-family: $font-montserrat;
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-style: italic;
     font-weight: 300;
     text-align: center;
+    color: $Violet;
   }
   }
 }
@@ -324,10 +325,11 @@
 
         .brands-container-slider {
           display: flex;
-          height: 250px;
+          height: 230px;
           overflow-x: scroll;
           overscroll-behavior-x: contain;
           scroll-snap-type: x proximity;
+          
           gap: 10px;
 
 
@@ -335,6 +337,7 @@
           .brands-container--card {
             display: flex;
             position: relative;
+            scroll-snap-align: center;
             width: 70%;
             min-width: 230px;
             max-width: 300px;
@@ -518,10 +521,12 @@ footer {
         width: 100%;
         height: auto;
         padding: 0 5px;
+        margin-bottom: 50px;
 
         .cards-container-slider {
          display: flex;
-         height: 200px;
+         height: 130px;
+         width: auto;
          overflow-x: scroll;
          overscroll-behavior-x: contain;
          scroll-snap-type: x proximity;
@@ -529,6 +534,7 @@ footer {
             
           .cards-items {
             display: flex;
+            scroll-snap-align: center;
             flex-direction: column;
             position: relative;
             width: 150px;
@@ -563,3 +569,85 @@ footer {
           }
         }
      
+
+/**------------------- Improve benefist 99% ------------------- **/
+.improve-trust {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+
+  .improve-trust-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    width: 280px;
+    height: 280px;
+    border: 30px, solid;
+    border-top-color: $Aqua;
+    border-right-color: $MainBlue;
+    border-bottom-color: $Aqua;
+    border-left-color: $Aqua;
+    border-radius: 300px;
+    text-align: center;
+
+  .porcentage {
+    font-family: $font-montserrat;
+    font-style: italic;
+    font-size: 50px;
+    font-weight: 700;
+    color: $white;
+    span {
+      font-size: 20px;  
+      font-weight: 700;    
+    }
+  }
+  .porcentage-description {
+    font-family: $font-montserrat;
+    font-style: regular;
+    font-size: 18px;
+    font-weight: 300;
+    color: $white;
+  }
+  }
+  .improve-trust-container::before {
+    content: '';
+    position: absolute;
+    width: 180px;
+    height: 140%;
+    background-color: $Aqua;
+    box-shadow: 0 0 20px rgb (8, 8, 8);
+    animation: animate 4s linear infinite;
+  }
+  .improve-trust-container::after {
+    content: '';
+    position: absolute;
+    inset: 10px;
+    background-color: $blueViolet;
+    border-radius: 16px;
+  }
+
+  @keyframes animate{
+    0%{
+      transform: rotate(0deg);
+    }
+    100%{
+      transform: rotate(360deg);
+    }
+  }
+ }
+
+/**------------------- photo mine ------------------- **/
+
+.imagePerfil {
+  img {
+   display: flex;
+   width: 100%;
+   height: auto;
+   justify-content: center; 
+  }
+  }

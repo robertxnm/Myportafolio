@@ -229,10 +229,11 @@ nav {
   justify-content: center;
   margin-bottom: 50px;
   font-family: "Montserrat", sans-serif;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-style: italic;
   font-weight: 300;
   text-align: center;
+  color: #7940E6;
 }
 
 /**------------------- Section of brands working------------------- **/
@@ -259,7 +260,7 @@ nav {
 }
 .main-brands-container-slider .brands-container-slider {
   display: flex;
-  height: 250px;
+  height: 230px;
   overflow-x: scroll;
   overscroll-behavior-x: contain;
   scroll-snap-type: x proximity;
@@ -268,6 +269,7 @@ nav {
 .main-brands-container-slider .brands-container-slider .brands-container--card {
   display: flex;
   position: relative;
+  scroll-snap-align: center;
   width: 70%;
   min-width: 230px;
   max-width: 300px;
@@ -424,10 +426,12 @@ footer .footer-line-half {
   width: 100%;
   height: auto;
   padding: 0 5px;
+  margin-bottom: 50px;
 }
 .cards-section-improve .cards-container-slider {
   display: flex;
-  height: 200px;
+  height: 130px;
+  width: auto;
   overflow-x: scroll;
   overscroll-behavior-x: contain;
   scroll-snap-type: x proximity;
@@ -435,6 +439,7 @@ footer .footer-line-half {
 }
 .cards-section-improve .cards-container-slider .cards-items {
   display: flex;
+  scroll-snap-align: center;
   flex-direction: column;
   position: relative;
   width: 150px;
@@ -461,4 +466,80 @@ footer .footer-line-half {
   font-size: 15px;
   text-align: center;
   font-weight: 500px;
+}
+
+/**------------------- Improve benefist 99% ------------------- **/
+.improve-trust {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.improve-trust .improve-trust-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  width: 280px;
+  height: 280px;
+  border: 30px, solid;
+  border-top-color: #40DAE6;
+  border-right-color: #4072E6;
+  border-bottom-color: #40DAE6;
+  border-left-color: #40DAE6;
+  border-radius: 300px;
+  text-align: center;
+}
+.improve-trust .improve-trust-container .porcentage {
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+  font-size: 50px;
+  font-weight: 700;
+  color: #fff;
+}
+.improve-trust .improve-trust-container .porcentage span {
+  font-size: 20px;
+  font-weight: 700;
+}
+.improve-trust .improve-trust-container .porcentage-description {
+  font-family: "Montserrat", sans-serif;
+  font-style: regular;
+  font-size: 18px;
+  font-weight: 300;
+  color: #fff;
+}
+.improve-trust .improve-trust-container::before {
+  content: "";
+  position: absolute;
+  width: 180px;
+  height: 140%;
+  background-color: #40DAE6;
+  box-shadow: 0 0 20px rgb 8, 8, 8;
+  animation: animate 4s linear infinite;
+}
+.improve-trust .improve-trust-container::after {
+  content: "";
+  position: absolute;
+  inset: 10px;
+  background-color: #4340E6;
+  border-radius: 16px;
+}
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/**------------------- photo mine ------------------- **/
+.imagePerfil img {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: center;
 }/*# sourceMappingURL=tablet.css.map */
