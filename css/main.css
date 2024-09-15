@@ -618,4 +618,172 @@ footer .ayuda .footer-btn-doubt {
   display: flex;
   width: 50%;
   height: auto;
+}
+
+/**------------------- section-experience-container ------------------- **/
+.section-experience-container {
+  display: flex;
+}
+.section-experience-container .container-experiencia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 100px;
+}
+.section-experience-container .container-experiencia .image-experience img {
+  display: flex;
+  width: 700px;
+  height: auto;
+  justify-content: center;
+}
+.section-experience-container .container-experiencia .container-section-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-experience-container .container-experiencia .container-section-right .title-experience {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  gap: 10px;
+}
+.section-experience-container .container-experiencia .container-section-right .title-experience .container-icons-experience {
+  width: 50px;
+  height: 50px;
+  background-image: linear-gradient(to right top, #40dae6, #00c5ef, #00adf7, #0092f5, #4072e6);
+  border-radius: 90px;
+  opacity: 100%;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.section-experience-container .container-experiencia .container-section-right .title-experience .container-icons-experience img {
+  width: 50px;
+  height: 50px;
+}
+.section-experience-container .container-experiencia .container-section-right .title-experience .experience {
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+}
+.section-experience-container .container-experiencia .container-section-right .title-experience .experience span {
+  color: #40DAE6;
+}
+.section-experience-container .container-experiencia .container-section-right .container-ranking-start {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-experience-container .container-experiencia .container-section-right .container-ranking-start img {
+  display: flex;
+  height: 30px;
+  width: 30px;
+}
+.section-experience-container .container-experiencia .container-section-right .container-ranking-start .puntuacion {
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  margin-top: 8px;
+}
+.section-experience-container .container-experiencia .container-section-right .container-ranking-start .Linea-avance {
+  display: flex;
+  width: 220px;
+  height: 15px;
+  background-image: linear-gradient(to right top, #40dae6, #00c5ef, #00adf7, #0092f5, #4072e6);
+  border-radius: 50px;
+  margin-left: 10px;
+}
+.section-experience-container .container-experiencia .container-section-right .paragraph-experience {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 200;
+  color: #fff;
+  text-align: center;
+  margin: 20px 10px;
+}
+.section-experience-container .container-experiencia .container-section-right .card-experience-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  min-width: 300px;
+  max-width: 600px;
+  height: 250px;
+  border: 2px solid #40DAE6;
+  border-radius: 25px;
+  margin: 20px 0;
+  padding: 10px;
+  gap: 15px;
+}
+.section-experience-container .container-experiencia .container-section-right .card-experience-container .title-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  gap: 10px;
+}
+.section-experience-container .container-experiencia .container-section-right .card-experience-container .title-card .title-card-experience {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  padding-bottom: 15px;
+}
+.section-experience-container .container-experiencia .container-section-right .card-experience-container .title-card .container-icons-experience {
+  width: 50px;
+  height: 50px;
+  background-image: linear-gradient(to right top, #40dae6, #00c5ef, #00adf7, #0092f5, #4072e6);
+  border-radius: 90px;
+  opacity: 100%;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.section-experience-container .container-experiencia .container-section-right .card-experience-container .title-card img {
+  height: 50px;
+  width: 50px;
+}
+.section-experience-container .container-experiencia .container-section-right .card-experience-container .numbers-distintion {
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+  gap: 30px;
+}
+.section-experience-container .container-experiencia .container-section-right .card-experience-container .numbers-distintion .distintion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: auto;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: #00243a;
+  border: 2px solid;
+  background-color: #C0E0F7;
+  border-radius: 20px;
+  padding: 5px;
+}
+.section-experience-container .container-experiencia .container-section-right .card-experience-container .numbers-distintion .line {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 10px;
+  width: 3px;
+}
+.section-experience-container .container-experiencia .container-section-right .card-experience-container .paragraph-card {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 200;
+  color: white;
+  text-align: justify;
 }/*# sourceMappingURL=main.css.map */

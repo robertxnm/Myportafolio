@@ -745,3 +745,196 @@ $font-poppins: "Poppins", sans-serif;
  }
  }
 
+/**------------------- section-experience-container ------------------- **/
+
+
+.section-experience-container {
+  display: flex;
+  .container-experiencia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+    .image-experience {
+      img {
+       display: flex;
+       width: 700px;
+       height: auto;
+       justify-content: center; 
+      }
+      }
+
+     .container-section-right {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .title-experience {
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+        gap: 10px;
+  
+            .container-icons-experience {
+            width: 50px;
+            height: 50px;
+            background-image: linear-gradient(to right top, #40dae6, #00c5ef, #00adf7, #0092f5, #4072e6);
+            border-radius: 90px;
+            opacity: 100%;
+            margin-bottom: 20px;
+            justify-content: center;
+            align-items: center;
+  
+            img {
+              width: 50px;
+              height: 50px;            
+            }
+  
+          
+        }
+        .experience {
+          display: flex;
+          font-family: $font-montserrat;
+          font-size: 2rem;
+          font-weight: 700;
+          color: $white;
+            span {
+              color: $Aqua;
+            }
+    
+        }
+      }
+      .container-ranking-start {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        img {
+          display: flex;
+          height: 30px;
+          width: 30px;
+        }
+        .puntuacion {
+          display: flex;
+          font-family: $font-montserrat;
+          font-size: 18px;
+          font-weight: 400;
+          color: $white;
+          margin-top: 8px;
+        }
+        .Linea-avance {
+          display: flex;
+          width: 220px;
+          height: 15px;
+          background-image: linear-gradient(to right top, #40dae6, #00c5ef, #00adf7, #0092f5, #4072e6);
+          border-radius: 50px;
+          margin-left: 10px;
+        }
+      }
+  
+      .paragraph-experience {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: $font-montserrat;
+        font-size: 15px;
+        font-weight: 200;
+        color: $white;
+        text-align: center;
+        margin: 20px 10px;
+      }
+  
+      .card-experience-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        min-width: 300px;
+        max-width: 600px;
+        height: 250px;
+        border: 2px solid $Aqua;
+        border-radius: 25px;
+        margin: 20px 0;
+        padding: 10px;
+        gap: 15px ;
+  
+          .title-card {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0;
+            margin: 0;
+            gap: 10px;
+            
+            .title-card-experience {
+              font-family: $font-montserrat;
+              font-size: 18px;
+              font-weight: 700;
+              color: $white;
+              padding-bottom: 15px;
+            }
+            .container-icons-experience {
+            width: 50px;
+            height: 50px;
+            background-image: linear-gradient(to right top, #40dae6, #00c5ef, #00adf7, #0092f5, #4072e6);
+            border-radius: 90px;
+            opacity: 100%;
+            margin-bottom: 20px;
+            
+            align-items: center;
+            }
+            img {
+              height: 50px;
+              width: 50px;
+            }
+          }
+  
+          .numbers-distintion{
+            display: flex;
+            justify-content: stretch;
+            align-items: center;
+            gap: 30px;
+            .distintion {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              width: 120px;
+              height: auto;
+              font-family: $font-montserrat;
+              font-size: 15px;
+              font-weight: 700;
+              color: $black;
+              border: 2px solid;
+              background-color: $bluesoft200;
+              border-radius: 20px;
+              padding: 5px;
+             }
+             .line {
+              display: flex;
+              flex-wrap: wrap;
+              flex-direction: column;
+              height: 10px;
+              width: 3px;
+             }
+          }
+          .paragraph-card {
+            font-family: $font-montserrat;
+              font-size: 15px;
+              font-weight: 200;
+              color: white;
+              text-align: justify;
+          }
+  
+  
+      }
+  
+     } 
+  
+
+
+  }
+
+
+}
+
+
