@@ -305,6 +305,7 @@ footer {
   margin: 100px 0;
   gap: 30px;
   justify-content: start;
+  align-items: center;
 }
 footer .footer-left {
   align-items: center;
@@ -682,4 +683,36 @@ footer .footer-line-half {
   font-weight: 200;
   color: white;
   text-align: justify;
+}
+
+/**------------------- Page portafolio ------------------- **/
+.year2025 {
+  font-size: 15px;
+  position: relative;
+  padding-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  font-style: regular;
+}
+
+.Logo-cook-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 70px;
+  background-color: #fff;
+  border-radius: 12px;
+}
+.Logo-cook-container .brands-logo {
+  display: flex;
+  gap: 30px;
+}
+.Logo-cook-container .brands-logo .brands-cook {
+  display: flex;
+  justify-content: center;
+  width: 68px;
+  height: 68px;
+  background-color: #40DAE6;
 }/*# sourceMappingURL=tablet.css.map */

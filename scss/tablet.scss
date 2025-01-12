@@ -379,6 +379,7 @@ footer {
   margin: 100px 0;   
   gap: 30px;
   justify-content: start;
+  align-items: center;
 
   .footer-left{        
     align-items: center;
@@ -813,4 +814,44 @@ footer {
 
 }
 
+
+/**------------------- Page portafolio ------------------- **/
+
+
+
+.year2025 {
+  font-size: 15px;
+  position: relative;
+  padding-bottom: 10px;             
+  font-family: $font-montserrat;
+  font-weight: 100;
+  font-style: regular;
+ 
+  
+}  
+
+  .Logo-cook-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 70px;
+    background-color: $white;
+    border-radius: 12px;
+
+  .brands-logo {
+    display: flex;
+    gap: 30px;
+
+    
+    .brands-cook {
+      display: flex;
+      justify-content: center;
+      width: 68px;
+      height: 68px;
+      background-color: $Aqua;
+      }
+  }
+  }
 
