@@ -1,0 +1,67 @@
+.titleEvent {
+    color: aqua;
+    margin-left: 200px;
+}
+
+
+.container2 {
+    display: flex;
+    background-color: red;
+    height: 100px;
+    width: 300px;
+    margin-left: 200px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.btnChange {
+    margin-left: 200px;
+}
+
+.labelLabs{
+    display: flex;
+    margin: 80px;
+    color: aliceblue;
+}
+
+.name {
+    margin-right: 5px;
+}
+
+.email {
+    margin-left: 50px;
+    margin-right: 5px;
+}
+
+
+.options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-left: 200px;
+    gap: 30px;
+   
+
+}
+
+.items-options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: aliceblue;
+    height: 20px;
+    width: 200px;
+    border: 2px, solid, white;
+}
+
+.items-options:hover {
+    background-color: gray;
+}
+
+.highlight {
+    background-color: aqua;
+    color: aliceblue;
+}

@@ -839,4 +839,13 @@ footer .ayuda .footer-btn-doubt {
   display: flex;
   height: 65px;
   width: auto;
+}
+
+/**------------------- Labs Java Script ------------------- **/
+.contentArea {
+  color: #E68340;
+}
+
+.labs-javaScript {
+  color: #40DAE6;
 }/*# sourceMappingURL=main.css.map */

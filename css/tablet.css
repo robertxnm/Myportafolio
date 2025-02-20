@@ -119,6 +119,9 @@ nav {
 .article .left-main .title-main span {
   color: #40DAE6;
 }
+.article .left-main .title-main .invisible {
+  display: none;
+}
 .article .left-main .sub-title {
   font-size: 22px;
   position: relative;
